@@ -1,0 +1,168 @@
+.multi-color-pic{
+    background-image: url(/public/Images/MultiColorBack.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 640.69px ;
+    height: 1004.23px;
+    position: absolute;
+   /* padding: -34px 180px 0px 180px; */
+   top: -180px;
+ left: 410px;
+    /* transform: rotate( -16.19deg); */
+    /* backdrop-filter: blur(100px); */
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1,210.44px;
+    height: 68px;
+    padding: 16px 112px 0px 112px;
+    gap: 235px;
+}
+.navbar-logo{
+    width: 24.44px;
+    height:38px;
+    gap: 10px;
+}
+.navbar-left-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 851px;
+    height: 68px;
+    gap: 172px;
+}
+.navbar-menu{
+    display: flex;
+    width: 478px;
+    /* width: 100%; */
+    height: 68px;
+    /* padding: 22px 41px 22px 41px; */
+    gap: 0px;
+    border-radius: 20px;
+    justify-content:  space-between;
+   align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 1);
+ 
+}
+.navbar-ul{
+    display: flex;
+    width: 396px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 41px 22px 41px;
+}
+.navbar-ul li{
+    list-style: none;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    /* text-align: left; */
+    /* color: rgba(137, 135, 161, 1); */
+
+}
+.navbar-ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+.navbar-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 201px;
+    height: 48px;
+    gap: 19px;
+    opacity: 0px;   
+}
+.navbar-right-btn{
+    outline: none;
+    border: none;
+    background: none;
+    width: 50px;
+    height: 24px;
+    opacity: 0.8px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(137, 135, 161, 1);
+}
+.navbar-left-btn{
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(78, 71, 255, 1);
+}
+.middle-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1,179px;
+    height: 315px;
+    top: 188px;
+    left: 131px;
+    gap: 53px;
+}
+.middle-heading-para{
+    width: 1179px;
+    height: 202px;
+    gap: 0px;
+    opacity: 0px;
+}
+.middle-heading-para p {
+    font-family: Raleway;
+    font-size: 53.34px;
+    font-weight: 700;
+    line-height: 53.34px;
+    text-align: center;
+    color: rgba(37, 36, 50, 1);
+}
+.middle-heading-para p span{
+    font-family: Raleway;
+    font-size: 73.34px;
+    font-weight: 700;
+    line-height: 73.34px;
+    text-align: center;
+    color: rgba(37, 36, 50, 1);
+}
+.middle-heading-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    opacity: 0px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+.middle-heading-btn button{
+    outline: none;
+    background: none;
+    border: none;
+    /* width: 95px; */
+    height: 24px;
+    top: 273px;
+    left: 542px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
